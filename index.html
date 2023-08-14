@@ -48,7 +48,7 @@
     <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
 
         <!-- Image Logo -->
-        <a class="navbar-brand logo-image" href="index.html"><img src="images/ae/AfricExpeditionsLogo.png" alt="alternative"></a>
+        <a class="navbar-brand logo-image" href="index.html"><img src="images/ae/AfricExpeditionsLogo.png" alt="alternative" style="width:20%"></a>
         
         <!-- Mobile Menu Toggle Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,16 +60,19 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(current)</span></a>
+                    <a class="nav-link page-scroll" href="#header"><i class="fas fa-home"></i> HOME <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#intro">INTRO</a>
+                    <a class="nav-link page-scroll" href="#intro"><i class="fas fa-globe"></i> INTRO</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#services">SPOTS</a>
+                    <a class="nav-link page-scroll" href="#services"><i class="fas fa-map-marker-alt"></i> SPOTS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#callMe">WHATSAPP US</a>
+                    <a class="nav-link page-scroll" href="#callMe"><i class="fab fa-whatsapp"></i> WHATSAPP US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#outdoor-activities"><i class="fas fa-volleyball-ball"></i> Outdoor Activities</a>
                 </li>
             </ul>
             <!-- <span class="nav-item social-icons">
@@ -116,7 +119,7 @@
             <div class="row">
                 <div class="col-lg-5">
                     <div class="text-container">
-                        <div class="section-title">INTRO</div>
+                        <div class="section-title"><i class="fas fa-globe"></i> INTRO</div>
                         <h2>We will explore Some Of The Best spots in Tanzania</h2>
                         <p>Tanzania is a country in East Africa known for its stunning landscapes, diverse wildlife, and vibrant culture. It offers a wide range of attractions for tourists, including national parks, wildlife reserves, beautiful beaches, and cultural heritage sites.</p>
                         <div class="testimonial-author">FIND THEM OUT BELOW</div>
@@ -189,7 +192,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="section-title">SPOTS</div>
+                    <div class="section-title"><i class="fas fa-map-marker-alt"></i> SPOTS</div>
                     <h2>Know a bit about the spots<br> We can enjoy even better</h2>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -380,13 +383,13 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="text-container">
-                        <div class="section-title">WHATSAPP US</div>
+                        <div class="section-title"><i class="fab fa-whatsapp"></i> WHATSAPP US</div>
                         <h2 class="white">Let us get in touch for your amazing journey !</h2>
                         <p class="white">You are just a few steps away from this. Just click the button to whatsapp us and we'll get right back with a call/message to help you decide what package works for you. It may be adventorous, sightseeing, cultural exploration etc.</p>
                     </div>
                 </div> <!-- end of col -->
                 <div class="col-lg-6" style="padding-top: 20px;">
-                    <a href="https://api.whatsapp.com/send/?phone=+917794011377&text=Hi&app_absent=0&lang=en"><button class="form-control-submit-button">CLICK HERE TO WHATSAPP US NOW!</button></a>
+                    <a href="https://api.whatsapp.com/send/?phone=+255689033276&text=Hi&app_absent=0&lang=en"><button class="form-control-submit-button"><i class="fab fa-2x fa-whatsapp"></i> CLICK HERE TO WHATSAPP US NOW!</button></a>
                     <br><br>
                     <ul class="list-unstyled li-space-lg white">
                         <li class="media">
@@ -410,11 +413,11 @@
 
 
     <!-- Testimonials -->
-    <div class="slider">
+    <div class="slider" id="outdoor-activities">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>Other Outdoor Activities</h2>
+                    <h2><i class="fas fa-volleyball-ball"></i> Other Outdoor Activities</h2>
                     <p class="p-heading">Apart from these specific destinations, Tanzania offers a wide range of outdoor activities, including hot air balloon safaris, birdwatching, snorkeling, and scuba diving. Whether you're a wildlife enthusiast, adventure seeker, beach lover, or cultural explorer, Tanzania has something to offer for every type of traveler.</p>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -502,7 +505,7 @@
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-md-3">
-                    <div class="text-container">
+                    <!--<div class="text-container">
                         <h4>Links</h4>
                         <ul class="list-unstyled li-space-lg white">
                             <li>
@@ -512,20 +515,15 @@
                                 <a class="white" href="privacy-policy.html">Privacy Policy</a>
                             </li>
                         </ul>
-                    </div> <!-- end of text-container -->
+                    </div> <!~~ end of text-container ~~>-->
                 </div> <!-- end of col -->
                 <div class="col-md-3">
                     <div class="text-container">
                         <h4>Get in Touch</h4>
                         <ul class="list-unstyled li-space-lg">
                             <li>
-                                <a class="white" href="#your-link">Whatsapp Us</a>
-                            </li>
-                            <li>
-                               <a class="white" href="#your-link">Call Us</a>
-                            </li>
-                            <li class="media">
-                                <a class="white" href="#your-link">Mail Us</a>
+                                <!-- <a class="white" href="#your-link">Whatsapp Us</a> -->
+                                <a href="https://api.whatsapp.com/send/?phone=+255689033276&text=Hi&app_absent=0&lang=en"><button class="form-control-submit-button"><i class="fab fa-whatsapp"></i> WHATSAPP US NOW!</button></a>
                             </li>
                         </ul>
                     </div> <!-- end of text-container -->
